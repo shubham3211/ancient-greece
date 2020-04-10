@@ -14,7 +14,8 @@ function ImageContainer({ image, text, like }) {
           borderRadius={15}
           style={{
             height: "100%",
-            backgroundImage: `url(${image})`
+            backgroundImage: `url(${image})`,
+            backgroundSize: 'cover'
           }}
         >
           {text ? (
